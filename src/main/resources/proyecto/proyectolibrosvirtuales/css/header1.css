@@ -1,0 +1,53 @@
+
+
+.backgroundColorClaro{
+    -fx-background-color: linear-gradient(to right bottom, #6863f7, #43279f)
+}
+.backgroundLibros{
+    -fx-background-color: linear-gradient(to right bottom, #403d98, #6863f7, #5894b4);
+}
+
+.button {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #000000;
+
+
+}
+.button:hover {
+    -fx-text-fill: #090f2f;
+    -fx-cursor: hand;
+    -fx-background-color: #ffffff;
+
+}
+
+
+.txtfield{
+    -fx-background-color: #e6ecff; /* Color de fondo */
+    -fx-background-radius: 20;
+}
+
+.botonMain{
+    -fx-background-color: linear-gradient(to right bottom, #6381f7, #6738f1);
+    -fx-background-radius: 20;
+}
+
+.botonVerde{
+    -fx-background-color: linear-gradient(to right bottom, #59e1d3, #2bb1c7);
+    -fx-background-radius: 20;
+}
+.botonRojo{
+    -fx-background-color: linear-gradient(to right bottom, #e15959, #c72b2b);
+    -fx-background-radius: 20;
+}
+
+.input-error {
+    -fx-background-color: rgb(255, 188, 188);
+    -fx-background-radius: 20;
+
+}
+
+.animated-text {
+    -fx-transition: glowTransition 0.5s;
+}
+
+

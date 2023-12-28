@@ -1,0 +1,54 @@
+/* styles.css */
+
+
+
+.table-view {
+    -fx-background-color: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)); /* Hace que el fondo de la tabla sea transparente */
+    -fx-font-family: "Microsoft JhengHei UI Light"; /* Agrega la fuente que desees */
+    -fx-background-radius:30px;
+    -fx-font-size: 14px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Color de fondo de la cabecera de la columna */
+    -fx-background-radius: 30px 30px 0px 0px;
+}
+.column-header > .label {
+    -fx-font-family: "Microsoft JhengHei UI Light"; /* Agrega la fuente que desees */
+    -fx-background-radius:30px;
+    -fx-text-fill: #2f2f2f; /* Color del texto en una fila seleccionada */
+}
+
+.table-view .column-header {
+    -fx-background-color: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    -fx-text-fill: white; /* Color del texto de la cabecera de la columna */
+    -fx-pref-height: 50px; /* Alto del encabezado */
+    -fx-font-family: "Microsoft JhengHei UI Light"; /* Agrega la fuente que desees */
+    -fx-background-radius:30px;
+}
+
+.table-row-cell {
+    -fx-background-color: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); /* Gradiente para las filas */
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.2em 0.2em 0.2em 0.2em; /* Espaciado interior de las celdas */
+    -fx-font-family: "Microsoft JhengHei UI Light"; /* Agrega la fuente que desees */
+}
+
+.table-row-cell:selected {
+    /* -fx-background-color: #63638c;  Color de fondo de la fila seleccionada */
+    -fx-text-fill: #212121; /* Color del texto en una fila seleccionada */
+    -fx-font-family: "Microsoft JhengHei UI Light"; /* Agrega la fuente que desees */
+}
+
+.table-cell {
+    -fx-text-fill: white; /* Color del texto en las celdas */
+    -fx-font-family: "Microsoft JhengHei UI Light"; /* Agrega la fuente que desees */
+}
+
+.table-view:focused .table-row-cell:focused:selected {
+    -fx-background-color: linear-gradient(to bottom right, rgba(0, 234, 232, 0.5), rgba(57, 127, 255, 0.5)); /* Color de fondo de la fila seleccionada */
+    -fx-text-fill: #212121;
+    -fx-font-family: "Microsoft JhengHei UI Light"; /* Agrega la fuente que desees */
+    -fx-transition: background-color 1s ease-in-out;
+
+}
